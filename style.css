@@ -1,0 +1,25 @@
+.typewriter { display: inline-block; }
+
+.name {
+    font-size: 5em;
+    letter-spacing: 5px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 1s steps(15),
+        cursor .3s step-end infinite alternate;
+
+}
+
+/* cursor blinking */
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+
+/*typing effect */
+@keyframes typing {
+    from { width: 0}
+}
